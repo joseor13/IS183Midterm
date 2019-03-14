@@ -26,7 +26,7 @@ var Login = /** @class */ (function () {
         }, 5000);
     };
     Login.prototype.goToHome = function () {
-        window.location.href = 'home.html';
+        window.location.href = 'index.html';
     };
     return Login;
 }());
