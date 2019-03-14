@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>About us</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            position: relative;
+        }
+
+        html,
+        body {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        h1 {
+            text-align: center;
+            width: 80%;
+        }
+
+        a {
+            text-decoration: none;
+        }
+        p {
+            color: #e63b30;
+        }
+        .box-shadow {
+            -webkit-box-shadow: 2px 0px 56px 3px rgba(110, 153, 124, 1);
+            -moz-box-shadow: 2px 0px 56px 3px rgba(110, 153, 124, 1);
+            box-shadow: 2px 0px 56px 3px rgba(110, 153, 124, 1);
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-rows: 3fr 13fr 1fr;
+            grid-row-gap: 1em;
+        }
+
+        .r2 {
+            display: grid;
+            grid-template-columns: .05fr 13fr .05fr;
+            background-color: rgb(181, 209, 185);
+            width: 98%;
+            margin-left: 1%;
+        }
+
+        .r1>img {
+            width: 80%;
+            height: 175px;
+            align-self: center;
+        }
+
+        .r1,
+        .r3 {
+            background-color: #9bc1bc;
+            text-align: center;
+            color: #f4f1bb;
+        }
+
+        .r2c1,
+        .r2c3 {
+            background-color: red;
+        }
+
+        .r2c2 {
+            background-color: rgb(207, 204, 219);
+            grid-template-rows: 8fr 8fr;
+            padding: 5px 20px;
+        }
+
+        .r2c2r1,
+        .r2c2r2 {
+            padding: 5px 0px;
+            height: 100%;
+            width: 100%;
+        }
+
+        .r2c2r2 {
+            margin-top: 100px;
+        }
+
+        .r2c2r1>img>h1>p,
+        .r2c2r2>img>h1>p {
+            display: block;
+            padding: 15px;
+            width: 100vw;
+        }
+
+        .top-image {
+            padding-right: 15px;
+            float: left;
+        }
+
+        .bottom-image {
+            float: right;
+            padding: 15px 0px 15px 15px;
+        }
+
+        .footer {
+            align-self: center;
+            justify-self: center;
+            padding-top: 15px;
+        }
+
+        .back-home {
+            padding: 7px 25px;
+            background-color: black;
+            color: white;
+            float: right;
+            font-weight: bold;
+        }
+
+        .back-home:hover {
+            background-color: rgb(42, 95, 40);
+        }
+    </style>>
+</head>
+
+<body class="grid-container">
+    <div class="r1 box-shadow">
+        <img class="logo-name" src="./img/sm_logo.jpg" alt="logo">
+    </div>
+    <div class="r2 box-shadow">
+        <div class="r2c1">
+        </div>
+        <div class="r2c2">
+            <div class="r2c2r1">
+                <a href="./index.html" class="back-home"> Back to Home</a>
+                <img class="top-image" src="./img/image_3.jpeg" alt="image1">
+                <h1>Free Lancer</h1>
+                <p>A week ago, you decide to earn additional money to buy books for next semester and created
+                    professional profile on freelancer.com. You had place a few bids on some website projects you think
+                    you can deliver on time and on budget. Today, you received an email from freelancer.com informing
+                    you that you have won one of those bids. The client (Gourmet Coffee & Tea) wish to move fast on this
+                    project and ask you to start immediately. The email provided by freelancer.com includes project
+                    specifications and theme colors.</p>
+            </div>
+            <div class="r2c2r2">
+                <img class="bottom-image" src="./img/image_4.jpeg" alt="image">
+                <h1>Free lancer</h1>
+                <p>A week ago, you decide to earn additional money to buy books for next semester and created
+                    professional profile on freelancer.com. You had place a few bids on some website projects you think
+                    you can deliver on time and on budget. Today, you received an email from freelancer.com informing
+                    you that you have won one of those bids. The client (Gourmet Coffee & Tea) wish to move fast on this
+                    project and ask you to start immediately. The email provided by freelancer.com includes project
+                    specifications and theme colors.</p>
+
+                <p>A week ago, you decide to earn additional money to buy books for next semester and created
+                    professional profile on freelancer.com. You had place a few bids on some website projects you think
+                    you can deliver on time and on budget. Today, you received an email from freelancer.com informing
+                    you that you have won one of those bids. The client (Gourmet Coffee & Tea) wish to move fast on this
+                    project and ask you to start immediately. The email provided by freelancer.com includes project
+                    specifications and theme colors.</p>
+            </div>
+        </div>
+        <div class="r2c3">
+        </div>
+    </div>
+    <div class="r3 box-shadow">
+        <div class="footer">Copyright @2019. Created by Jose Rosales</div>
+    </div>
+</body>
+
+</html>
